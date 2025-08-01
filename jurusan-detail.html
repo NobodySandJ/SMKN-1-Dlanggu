@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Jurusan - SMKN 1 Dlanggu</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer base {
+            html {
+                font-family: 'Inter', sans-serif;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-purple': '#582C83',
+                        'brand-purple-light': '#7E57C2',
+                        'brand-gray': '#F3F4F6',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <svg class="h-8 w-8 text-brand-purple" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5-10-5-10 5z"/></svg>
+                <span class="text-xl font-poppins font-bold text-gray-900">SMKN 1 Dlanggu</span>
+            </a>
+            <a href="index.html#jurusan" class="bg-brand-purple text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-purple-light transition duration-300">Kembali ke Jurusan</a>
+        </nav>
+    </header>
+
+    <main id="jurusan-detail-content" class="container mx-auto px-6 py-12 md:py-16">
+        <div id="loading" class="text-center py-24">
+            <p class="text-lg font-semibold text-gray-600">Memuat data jurusan...</p>
+        </div>
+    </main>
+    
+    <footer id="kontak" class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-6 py-12">
+            <div class="mt-10 border-t border-gray-700 pt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2025 SMKN 1 Dlanggu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+    <script src="js/jurusan.js"></script>
+</body>
+</html>
