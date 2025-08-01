@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "image": "img/sekolah.png"
+  },
+  "sambutan": {
+    "judul": "Sambutan Hangat dari Kepala Sekolah",
+    "nama_kepsek": "Ibu Hj. Irni Istiqomah.",
+    "foto_kepsek": "img/kepsek.png",
+    "isi_sambutan": "Assalamu'alaikum Wr. Wb. Selamat datang di website resmi SMKN 1 Dlanggu. Kami berkomitmen untuk menyediakan lingkungan belajar yang inspiratif dan inovatif. Melalui website ini, kami berharap dapat berbagi informasi dan pencapaian sekolah kepada masyarakat luas. Mari bersama-sama kita majukan pendidikan vokasi Indonesia."
+  },
+  "jurusan": [
+    {
+      "nama": "Rekayasa Perangkat Lunak(RPL)",
+      "deskripsi": "Mencetak programmer andal untuk industri digital.",
+      "icon": "💻"
+    },
+    {
+      "nama": "Teknik Komputer & Jaringan(TKJ)",
+      "deskripsi": "Ahli infrastruktur jaringan dan keamanan siber.",
+      "icon": "🌐"
+    },
+    {
+      "nama": "Desain Komunikasi Visual(DKV)",
+      "deskripsi": "Mengasah talenta di bidang desain, video, dan animasi.",
+      "icon": "🎨"
+    },
+    {
+      "nama": "Tasa Boga(TB)",
+      "deskripsi": "Menciptakan chef profesional dan wirausaha kuliner.",
+      "icon": "🍲"
+    },
+    {
+      "nama": "Perhotelan(PHT)",
+      "deskripsi": "Menciptakan pelayan profesional dan waiters terbaik.",
+      "icon": "🏨"
+    },
+    {
+      "nama": "Sistem Informatika,Jaringan,dan Aplikasi(SIJA)",
+      "deskripsi": "Menciptakan arsitek konektivitas digital dan keamanan siber.",
+      "icon": "🌐"
+    }
+  ],
+  "berita": [
+    {
+      "judul": "SMKN 1 Dlanggu Borong Juara di LKS Tingkat Provinsi",
+      "tanggal": "28 Juli 2025",
+      "gambar": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1470&auto=format&fit=crop",
+      "kategori": "Prestasi"
+    },
+    {
+      "judul": "Workshop 'AI for Students' Sukses Digelar",
+      "tanggal": "15 Juli 2025",
+      "gambar": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
+      "kategori": "Kegiatan"
+    },
+    {
+      "judul": "Kunjungan Industri ke Silicon Valley van Java",
+      "tanggal": "5 Juli 2025",
+      "gambar": "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1548&auto=format&fit=crop",
+      "kategori": "Kunjungan"
+    }
+  ]
+}
