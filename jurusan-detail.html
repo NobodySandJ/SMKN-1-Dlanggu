@@ -9,16 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style type="text/tailwindcss">
-        @layer base {
-            html {
-                font-family: 'Inter', sans-serif;
-            }
-            h1, h2, h3, h4, h5, h6 {
-                font-family: 'Poppins', sans-serif;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
     <script>
         tailwind.config = {
             theme: {
@@ -40,13 +31,63 @@
 <body class="bg-white text-gray-800">
 
     <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center space-x-2">
-                <svg class="h-8 w-8 text-brand-purple" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5-10-5-10 5z"/></svg>
-                <span class="text-xl font-poppins font-bold text-gray-900">SMKN 1 Dlanggu</span>
-            </a>
-            <a href="index.html#jurusan" class="bg-brand-purple text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-purple-light transition duration-300">Kembali ke Jurusan</a>
-        </nav>
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="flex items-center space-x-2">
+          <img src="img/logo dlanggu.png" alt="Logo Dlanggu" class="h-8 w-8" />
+          <span class="text-xl font-poppins font-bold text-gray-900"
+            >SMKN 1 Dlanggu</span
+          >
+        </a>
+        <div
+          class="hidden md:flex items-center space-x-8 font-medium text-gray-600"
+        >
+          <a
+            href="#sambutan"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Profil</a
+          >
+          <a
+            href="jurusan-detail.html"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Jurusan</a
+          >
+          <a
+            href="#berita"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Berita</a
+          >
+          <a
+            href="#galeri"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Galeri</a
+          >
+        </div>
+        <!-- <a
+          href="#kontak"
+          class="hidden md:block bg-brand-purple text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-purple-light transition duration-300"
+          ></a
+        > -->
+        <div class="md:hidden">
+          <button class="text-gray-800 focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
     </header>
 
     <main id="jurusan-detail-content" class="container mx-auto px-6 py-12 md:py-16">
@@ -70,6 +111,6 @@
             once: true,
         });
     </script>
-    <script src="js/jurusan.js"></script>
+    <script src="js/jurusan-detail.js"></script>
 </body>
 </html>

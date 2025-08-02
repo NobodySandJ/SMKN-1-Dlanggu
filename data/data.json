@@ -15,7 +15,7 @@
       "deskripsi": "Mencetak programmer andal untuk industri digital.",
       "icon": "💻",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1555066931-4365d1469c9b?q=80&w=1470&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "Jurusan Rekayasa Perangkat Lunak (RPL) adalah bidang yang mendalami cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, dan manajemen kualitas. Siswa akan dibekali kemampuan coding dengan berbagai bahasa pemrograman, analisis sistem, perancangan basis data, hingga manajemen proyek.",
         "prospek_karir": [
           "Software Developer",
@@ -41,12 +41,11 @@
       "deskripsi": "Ahli infrastruktur jaringan dan keamanan siber.",
       "icon": "🌐",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1580894732444-8ecded7948b4?q=80&w=1470&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "Siswa jurusan Teknik Komputer dan Jaringan (TKJ) akan menjadi ahli dalam infrastruktur teknologi informasi. Pembelajaran mencakup perakitan komputer, instalasi sistem operasi, perancangan dan administrasi jaringan (LAN, WAN), serta dasar-dasar keamanan siber untuk melindungi data dan sistem.",
         "prospek_karir": [
           "Network Administrator",
           "IT Support Specialist",
-          "Cybersecurity Analyst (Junior)",
           "System Administrator",
           "Network Engineer"
         ],
@@ -66,7 +65,7 @@
       "deskripsi": "Mengasah talenta di bidang desain dan animasi.",
       "icon": "🎨",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=1471&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "Jurusan Desain Komunikasi Visual (DKV) adalah wadah bagi siswa kreatif untuk belajar menyampaikan pesan secara visual. Materi pelajarannya meliputi dasar-dasar seni rupa, desain grafis, fotografi, videografi, hingga animasi 2D dan 3D untuk kebutuhan industri kreatif.",
         "prospek_karir": [
           "Graphic Designer",
@@ -92,7 +91,7 @@
       "deskripsi": "Menciptakan chef profesional dan wirausaha kuliner.",
       "icon": "🍲",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1470&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "Jurusan Jasa Boga mempersiapkan siswa untuk menjadi ahli di dunia kuliner. Pembelajaran meliputi teknik memasak masakan Indonesia dan internasional, patiseri dan panen, manajemen dapur, sanitasi, hingga dasar-dasar kewirausahaan kuliner untuk membuka usaha sendiri.",
         "prospek_karir": [
           "Chef de Partie (Cook)",
@@ -117,7 +116,7 @@
       "deskripsi": "Ahli pelayanan dan manajemen industri perhotelan.",
       "icon": "🏨",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "Jurusan Perhotelan membekali siswa dengan keterampilan untuk memberikan pelayanan terbaik di industri hospitality. Fokusnya meliputi operasional kantor depan (front office), tata graha (housekeeping), pelayanan makanan dan minuman (F&B service), serta dasar-dasar manajemen perhotelan.",
         "prospek_karir": [
           "Front Office Staff",
@@ -142,7 +141,7 @@
       "deskripsi": "Menjadi arsitek konektivitas digital dan aplikasi.",
       "icon": "⚙️",
       "detail": {
-        "gambar_utama": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1470&auto=format&fit=crop",
+        "gambar_utama": "https://i.pinimg.com/736x/7d/be/d9/7dbed90655c6d7de0f4d01eb01b9cbe1.jpg",
         "deskripsi_panjang": "SIJA adalah jurusan komprehensif yang menggabungkan keahlian dari RPL dan TKJ. Siswa tidak hanya belajar membangun jaringan dan mengelola server, tetapi juga mengembangkan aplikasi yang berjalan di atasnya. Jurusan ini mencetak talenta IT serba bisa yang siap menghadapi kebutuhan industri modern.",
         "prospek_karir": [
           "Full-Stack Developer",
@@ -167,19 +166,43 @@
       "judul": "SMKN 1 Dlanggu Borong Juara di LKS Tingkat Provinsi",
       "tanggal": "28 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1470&auto=format&fit=crop",
-      "kategori": "Prestasi"
+      "kategori": "Prestasi",
+      "deskripsi": "SMKN 1 Dlanggu berhasil meraih juara di beberapa bidang Lomba Kompetensi Siswa (LKS) tingkat provinsi tahun 2025. Prestasi ini menunjukkan kualitas pendidikan yang unggul dan dedikasi para siswa dan guru."
     },
     {
       "judul": "Workshop 'AI for Students' Sukses Digelar",
       "tanggal": "15 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
-      "kategori": "Kegiatan"
+      "kategori": "Kegiatan",
+      "deskripsi": "Workshop dengan tema 'AI for Students' dihadiri oleh siswa dari berbagai jurusan. Mereka belajar dasar-dasar kecerdasan buatan, machine learning, dan aplikasinya dalam dunia industri."
     },
     {
       "judul": "Kunjungan Industri ke Silicon Valley van Java",
       "tanggal": "5 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1548&auto=format&fit=crop",
-      "kategori": "Kunjungan"
+      "kategori": "Kunjungan",
+      "deskripsi": "Siswa kelas XI SMKN 1 Dlanggu mengunjungi perusahaan teknologi di kawasan Silicon Valley van Java, Malang. Kunjungan ini membuka wawasan siswa tentang lingkungan kerja dunia industri IT."
+    },
+    {
+      "judul": "SMKN 1 Dlanggu Gelar Pentas Seni Tahunan",
+      "tanggal": "20 Juni 2025",
+      "gambar": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1470&auto=format&fit=crop",
+      "kategori": "Kegiatan",
+      "deskripsi": "Pentas seni yang menampilkan talenta siswa-siswi SMKN 1 Dlanggu sukses digelar dengan berbagai penampilan mulai dari tari tradisional, musik band, hingga teater modern."
+    },
+    {
+      "judul": "Pelatihan Public Speaking untuk Siswa Kelas X",
+      "tanggal": "10 Juni 2025",
+      "gambar": "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop",
+      "kategori": "Pelatihan",
+      "deskripsi": "Pelatihan ini bertujuan untuk meningkatkan kemampuan komunikasi siswa secara percaya diri dan profesional dalam menghadapi presentasi di dunia pendidikan maupun kerja."
+    },
+    {
+      "judul": "Pelatihan Public Speaking untuk Siswa Kelas X",
+      "tanggal": "10 Juni 2025",
+      "gambar": "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop",
+      "kategori": "Pelatihan",
+      "deskripsi": "Pelatihan ini bertujuan untuk meningkatkan kemampuan komunikasi siswa secara percaya diri dan profesional dalam menghadapi presentasi di dunia pendidikan maupun kerja."
     }
   ],
   "galeri": [
@@ -196,22 +219,22 @@
     {
       "judul": "Praktik di Lab TKJ",
       "kategori": "Kegiatan Belajar",
-      "foto": "https://images.unsplash.com/photo-1519412666096-9f1c7bf5de9e?q=80&w=1470&auto=format&fit=crop"
+      "foto": "https://i.pinimg.com/736x/64/03/99/640399f6acdd9b9f02078b5388005186.jpg"
     },
     {
       "judul": "Lomba Memasak",
       "kategori": "Kompetisi",
-      "foto": "https://images.unsplash.com/photo-1600565193348-f74d3c2723a4?q=80&w=1470&auto=format&fit=crop"
+      "foto": "https://i.pinimg.com/736x/64/03/99/640399f6acdd9b9f02078b5388005186.jpg"
     },
     {
       "judul": "Desain Poster DKV",
       "kategori": "Karya Siswa",
-      "foto": "https://images.unsplash.com/photo-1502472283913-623b333a94a2?q=80&w=1470&auto=format&fit=crop"
+      "foto": "https://i.pinimg.com/736x/64/03/99/640399f6acdd9b9f02078b5388005186.jpg"
     },
     {
       "judul": "Suasana Upacara Bendera",
       "kategori": "Kegiatan Sekolah",
-      "foto": "https://images.unsplash.com/photo-1627889659972-bad813a4b6b2?q=80&w=1534&auto=format&fit=crop"
+      "foto": "https://i.pinimg.com/736x/64/03/99/640399f6acdd9b9f02078b5388005186.jpg"
     }
   ]
 }
