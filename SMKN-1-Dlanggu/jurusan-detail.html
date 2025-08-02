@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Jurusan - SMKN 1 Dlanggu</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-purple': '#582C83',
+                        'brand-purple-light': '#7E57C2',
+                        'brand-gray': '#F3F4F6',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="flex items-center space-x-2">
+          <img src="img/logo dlanggu.png" alt="Logo Dlanggu" class="h-8 w-8" />
+          <span class="text-xl font-poppins font-bold text-gray-900"
+            >SMKN 1 Dlanggu</span
+          >
+        </a>
+        <div
+          class="hidden md:flex items-center space-x-8 font-medium text-gray-600"
+        >
+          <a
+            href="#sambutan"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Profil</a
+          >
+          <a
+            href="jurusan-detail.html"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Jurusan</a
+          >
+          <a
+            href="#berita"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Berita</a
+          >
+          <a
+            href="#galeri"
+            class="relative after:block after:h-[2px] after:bg-brand-purple after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left hover:text-brand-purple transition duration-300"
+            >Galeri</a
+          >
+        </div>
+        <!-- <a
+          href="#kontak"
+          class="hidden md:block bg-brand-purple text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-purple-light transition duration-300"
+          ></a
+        > -->
+        <div class="md:hidden">
+          <button class="text-gray-800 focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="jurusan-detail-content" class="container mx-auto px-6 py-12 md:py-16">
+        <div id="loading" class="text-center py-24">
+            <p class="text-lg font-semibold text-gray-600">Memuat data jurusan...</p>
+        </div>
+    </main>
+    
+    <footer id="kontak" class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-6 py-12">
+            <div class="mt-10 border-t border-gray-700 pt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2025 SMKN 1 Dlanggu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+    <script src="js/jurusan-detail.js"></script>
+</body>
+</html>
