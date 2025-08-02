@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       renderSambutan(data.sambutan);
       renderJurusan(data.jurusan);
       renderBerita(data.berita);
-      renderGaleri(data.galeri); // Panggil fungsi render galeri baru
+      renderGaleri(data.galeri);
     } catch (error) {
       console.error("Gagal memuat data website:", error);
     }
@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
   }
 
-  // FUNGSI INI DIPERBARUI
   function renderJurusan(items) {
     const container = document.getElementById("jurusan-container");
     if (!container) return;
@@ -100,7 +99,6 @@ document.addEventListener("DOMContentLoaded", function () {
       .join("");
   }
 
-  // FUNGSI BARU UNTUK GALERI
   function renderGaleri(items) {
     const container = document.getElementById("galeri-container");
     if (!container) return;
@@ -131,10 +129,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   fetchData();
+  
+  // Kode untuk toggle menu mobile
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
+    });
+  }
 });
-// Taruh di luar DOMContentLoaded agar global
+
 function openBeritaModal(index) {
-  console.log("Modal diklik:", index); // Debug
   const item = window.beritaItems[index];
   if (!item) return;
 

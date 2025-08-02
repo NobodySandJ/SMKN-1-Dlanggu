@@ -72,7 +72,7 @@
           >Contact Us</a
         >
         <div class="md:hidden">
-          <button class="text-gray-800 focus:outline-none">
+          <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -90,6 +90,13 @@
           </button>
         </div>
       </nav>
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a href="#sambutan" class="block py-2 px-6 text-sm hover:bg-brand-gray">Profil</a>
+        <a href="jurusan-detail.html" class="block py-2 px-6 text-sm hover:bg-brand-gray">Jurusan</a>
+        <a href="#berita" class="block py-2 px-6 text-sm hover:bg-brand-gray">Berita</a>
+        <a href="#galeri" class="block py-2 px-6 text-sm hover:bg-brand-gray">Galeri</a>
+        <a href="#kontak" class="block py-2 px-6 text-sm hover:bg-brand-gray">Contact Us</a>
+      </div>
     </header>
 
     <main>
@@ -158,8 +165,7 @@
             </h2>
           </div>
           <div id="berita-container" class="grid md:grid-cols-3 gap-6 mt-5">
-            <!-- Berita akan dimuat oleh JS -->
-          </div>
+            </div>
         </div>
       </section>
 
@@ -173,7 +179,7 @@
           </div>
           <div
             id="galeri-container"
-            class="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+            class="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4"
           ></div>
         </div>
       </section>
@@ -233,8 +239,6 @@
     </script>
 
     <script src="js/main.js"></script>
-    <!-- Modal -->
-    <!-- Modal Berita -->
     <div
       id="berita-modal"
       class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden"
@@ -262,7 +266,9 @@
           <p
             id="modal-deskripsi"
             class="text-base text-gray-700 leading-relaxed"
-          ></p>
+          >
+            
+          </p>
         </div>
       </div>
     </div>
