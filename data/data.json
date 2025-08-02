@@ -2,6 +2,10 @@
   "hero": {
     "image": "img/sekolah.png"
   },
+  "kontak": {
+    "telepon": "(031) - 1231 - 1231212",
+    "email": "dummy@gmail.com"
+  },
   "sambutan": {
     "judul": "Sambutan Hangat dari Kepala Sekolah",
     "nama_kepsek": "Bapak Drs. H. Supriyadi, M.M.",
@@ -87,8 +91,7 @@
       }
     },
     {
-      "id": "tb",
-      "nama": "Jasa Boga",
+      "nama": "Tasa Boga(TB)",
       "deskripsi": "Menciptakan chef profesional dan wirausaha kuliner.",
       "icon": "🍲",
       "detail": {
@@ -167,19 +170,22 @@
       "judul": "SMKN 1 Dlanggu Borong Juara di LKS Tingkat Provinsi",
       "tanggal": "28 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1470&auto=format&fit=crop",
-      "kategori": "Prestasi"
+      "kategori": "Prestasi",
+      "deskripsi": "Siswa-siswi SMKN 1 Dlanggu berhasil meraih juara dalam berbagai bidang pada ajang LKS Tingkat Provinsi Jawa Timur. Prestasi ini menunjukkan kualitas pendidikan vokasi yang terus meningkat di sekolah tersebut."
     },
     {
       "judul": "Workshop 'AI for Students' Sukses Digelar",
       "tanggal": "15 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop",
-      "kategori": "Kegiatan"
+      "kategori": "Kegiatan",
+      "deskripsi": "Workshop bertajuk 'AI for Students' sukses diselenggarakan dengan peserta dari berbagai jurusan. Acara ini memperkenalkan konsep dasar kecerdasan buatan dan implementasinya dalam kehidupan sehari-hari."
     },
     {
       "judul": "Kunjungan Industri ke Silicon Valley van Java",
       "tanggal": "5 Juli 2025",
       "gambar": "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1548&auto=format&fit=crop",
-      "kategori": "Kunjungan"
+      "kategori": "Kunjungan",
+      "deskripsi": "Sebagai bagian dari program pembelajaran luar kelas, siswa melakukan kunjungan industri ke kawasan teknologi Jawa Timur yang dijuluki 'Silicon Valley van Java'. Mereka belajar langsung dari para praktisi di bidang teknologi informasi."
     }
   ],
   "galeri": [
